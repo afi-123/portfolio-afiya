@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    header {
+    background-color:lightskyblue;
+    color:#fff;
+    padding:40px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    h1{
+    color:blue;
+    text-align: center;
+    font-size: 45px;
+    }
+    h4{
+    color:#333;
+    font-size: 40px;
+    }
+    nav ul {
+    list-style-type: none;
+    padding: 0;
+    }
+    nav ul li {
+    display: inline;
+    margin-right: 10px;
+    }
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 2.5rem;
+    font-size: 20px;
+    }
+    nav ul li a:hover{
+    color: #fd4766;
+    }
+    nav ul li a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background:white;
+    transition: 0.3s;
+    bottom: 0;
+    }
+    nav ul li a:hover:after {
+    width: 100%;
+    }
+    section{
+    padding: 40px;
+    text-align: center;
+    background-color:white;
+    }
+    #hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .hero-content {
+    max-width: 600px;
+    }
+    h2 {
+    color: #333;
+    font-size: 30px;
+    }
+    h3{
+    color:black;
+    }
+    .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 4px;
+    }
+    .hero-pic img{
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    }
+    .hero-pic img:hover{
+    transform: scale(1.2);
+    }
+    .about-bg {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--off-white);
+    }
+    hr {
+    margin: 0rem 0rem;
+    background-color: antiquewhite;
+    }
+    p{
+    font-size:20px;
+    }
+    #about {
+    background-color:whitesmoke;
+    }
+    #projects{
+    background-color:lightgray;
+    }
+    .project {
+    margin-bottom: 40px;
+    }
+    form input,
+    form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    form textarea {
+    height: 120px;
+    }
+    form button {
+    background-color:gray;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    #achievements{
+    margin-bottom: 40px;
+    background-color:whitesmoke;
+    }
+    #contact{
+    background-color:lightgray;
+    }
+    .container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:2rem;
+    }
+    #social{
+    background-color:white;
+    text-align:center;
+    display: block;
+    width: 30%;
+    margin-right: 0px;
+    margin-left:450px;
+    justify-content: space-between;
+    }
+    .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    }
+    .social-icons li {
+    margin-right: 10px;
+    display: grid;
+    place-items: center;
+    }
+    .social-icons li:last-child {
+    margin-right: 0;
+    }
+    .social-icons a {
+    text-decoration: none;
+    color: #000;
+    }
+    footer {
+    background-color:#333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    }
+    h5{
+    text-align: center;
+    font-size:30px;
+    color:#000;
+    padding:0;
+    }
